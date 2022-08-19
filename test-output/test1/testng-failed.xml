@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="a13_TestNG_Keywords.A4_dependsOnMethod">
+        <methods>
+          <include name="m1"/>
+          <include name="m2"/>
+        </methods>
+      </class> <!-- a13_TestNG_Keywords.A4_dependsOnMethod -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [test1] -->
